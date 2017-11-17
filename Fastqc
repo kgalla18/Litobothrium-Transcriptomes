@@ -1,0 +1,77 @@
+#!/bin/bash
+#$ -N Fastqc
+#$ -M kaitlin.gallagher@uconn.edu
+#$ -m bea
+#$ -S /bin/bash
+#$ -cwd
+#$ -q course.q
+#$ -pe smp 2
+#$ -o $JOB_NAME_$JOB_ID.out
+#$ -e $JOB_NAME_$JOB_ID.err
+
+gunzip /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001*
+
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_10_S46_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_10_S46_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_10_S46_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_10_S46_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_11_S47_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_11_S47_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_11_S47_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_11_S47_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_12_S48_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_12_S48_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_12_S48_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_12_S48_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_13_S49_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_13_S49_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_13_S49_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_13_S49_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_14_S50_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_14_S50_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_14_S50_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_14_S50_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_15_S51_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_15_S51_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_15_S51_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_15_S51_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_16_S52_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_16_S52_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_16_S52_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_16_S52_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_1_S37_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_1_S37_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_1_S37_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_1_S37_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_2_S38_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_2_S38_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_2_S38_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_2_S38_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_3_S39_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_3_S39_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_3_S39_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_3_S39_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_4_S40_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_4_S40_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_4_S40_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_4_S40_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_5_S41_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_5_S41_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_5_S41_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_5_S41_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_6_S42_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_6_S42_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_6_S42_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_6_S42_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_7_S43_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_7_S43_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_7_S43_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_7_S43_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_8_S44_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_8_S44_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_8_S44_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_8_S44_L005_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_9_S45_L004_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_9_S45_L004_R2_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_9_S45_L005_R1_001.fastq
+fastqc /archive/KGalla/Lito_Transcriptomes/RawReads/gslserver.qb3.berkeley.edu/171109_100PE_HS4KA/Lane123456/Gallagher/KJKG001_9_S45_L005_R2_001.fastq
