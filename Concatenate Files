@@ -1,0 +1,69 @@
+#!/bin/bash
+#$ -N cat
+#$ -M kaitlin.gallagher@uconn.edu
+#$ -m bea
+#$ -S /bin/bash
+#$ -cwd
+#$ -q course.q
+#$ -pe smp 2
+#$ -o $JOB_NAME_$JOB_ID.out
+#$ -e $JOB_NAME_$JOB_ID.err
+
+cat KJKG001_2_S38_L004_R2_001.fastq KJKG001_2_S38_L005_R2_001.fastq > KJKG2_R2.fastq
+mv KJKG2_R2.fastq Cat_Files/
+cat KJKG001_3_S39_L004_R1_001.fastq KJKG001_3_S39_L005_R1_001.fastq > KJKG3_R1.fastq
+mv KJKG3_R1.fastq Cat_Files/
+cat KJKG001_3_S39_L004_R2_001.fastq KJKG001_3_S39_L005_R2_001.fastq > KJKG3_R2.fastq
+mv KJKG3_R2.fastq Cat_Files/
+cat KJKG001_4_S40_L004_R1_001.fastq KJKG001_4_S40_L005_R1_001.fastq > KJKG4_R1.fastq
+mv KJKG4_R1.fastq Cat_Files/
+cat KJKG001_4_S40_L004_R2_001.fastq KJKG001_4_S40_L005_R2_001.fastq > KJKG4_R2.fastq
+mv KJKG4_R2.fastq Cat_Files/
+cat KJKG001_5_S41_L004_R1_001.fastq KJKG001_5_S41_L005_R1_001.fastq > KJKG5_R1.fastq
+mv KJKG5_R1.fastq Cat_Files/
+cat KJKG001_5_S41_L004_R2_001.fastq KJKG001_5_S41_L005_R2_001.fastq > KJKG5_R2.fastq
+mv KJKG5_R2.fastq Cat_Files/
+cat KJKG001_6_S42_L004_R1_001.fastq KJKG001_6_S42_L005_R1_001.fastq > KJKG6_R1.fastq
+mv KJKG6_R1.fastq Cat_Files/
+cat KJKG001_6_S42_L004_R2_001.fastq KJKG001_6_S42_L005_R2_001.fastq > KJKG6_R2.fastq
+mv KJKG6_R2.fastq Cat_Files/
+cat KJKG001_7_S43_L004_R1_001.fastq KJKG001_7_S43_L005_R1_001.fastq > KJKG7_R1.fastq
+mv KJKG7_R1.fastq Cat_Files/
+cat KJKG001_7_S43_L004_R2_001.fastq KJKG001_7_S43_L005_R2_001.fastq > KJKG7_R2.fastq
+mv KJKG7_R2.fastq Cat_Files/
+cat KJKG001_8_S44_L004_R1_001.fastq KJKG001_8_S44_L005_R1_001.fastq > KJKG8_R1.fastq
+mv KJKG8_R1.fastq Cat_Files/
+cat KJKG001_8_S44_L004_R2_001.fastq KJKG001_8_S44_L005_R2_001.fastq > KJKG8_R2.fastq
+mv KJKG8_R2.fastq Cat_Files/
+cat KJKG001_9_S45_L004_R1_001.fastq KJKG001_9_S45_L005_R1_001.fastq > KJKG9_R1.fastq
+mv KJKG9_R1.fastq Cat_Files/
+cat KJKG001_9_S45_L004_R2_001.fastq KJKG001_9_S45_L005_R2_001.fastq > KJKG9_R2.fastq
+mv KJKG9_R2.fastq Cat_Files/
+cat KJKG001_10_S46_L004_R1_001.fastq KJKG001_10_S46_L005_R1_001.fastq > KJKG10_R1.fastq
+mv KJKG10_R1.fastq Cat_Files/
+cat KJKG001_10_S46_L004_R2_001.fastq KJKG001_10_S46_L005_R2_001.fastq > KJKG10_R2.fastq
+mv KJKG10_R2.fastq Cat_Files/
+cat KJKG001_11_S47_L004_R1_001.fastq KJKG001_11_S47_L005_R1_001.fastq > KJKG11_R1.fastq
+mv KJKG11_R1.fastq Cat_Files/
+cat KJKG001_11_S47_L004_R2_001.fastq KJKG001_11_S47_L005_R2_001.fastq > KJKG11_R2.fastq
+mv KJKG11_R2.fastq Cat_Files/
+cat KJKG001_12_S48_L004_R1_001.fastq KJKG001_12_S48_L005_R1_001.fastq > KJKG12_R1.fastq
+mv KJKG12_R1.fastq Cat_Files/
+cat KJKG001_12_S48_L004_R2_001.fastq KJKG001_12_S48_L005_R2_001.fastq > KJKG12_R2.fastq
+mv KJKG12_R2.fastq Cat_Files/
+cat KJKG001_13_S49_L004_R1_001.fastq KJKG001_13_S49_L005_R1_001.fastq > KJKG13_R1.fastq
+mv KJKG13_R1.fastq Cat_Files/
+cat KJKG001_13_S49_L004_R2_001.fastq KJKG001_13_S49_L005_R2_001.fastq > KJKG13_R2.fastq
+mv KJKG13_R2.fastq Cat_Files/
+cat KJKG001_14_S50_L004_R1_001.fastq KJKG001_14_S50_L005_R1_001.fastq > KJKG14_R1.fastq
+mv KJKG14_R1.fastq Cat_Files/
+cat KJKG001_14_S50_L004_R2_001.fastq KJKG001_14_S50_L005_R2_001.fastq > KJKG14_R2.fastq
+mv KJKG14_R2.fastq Cat_Files/
+cat KJKG001_15_S51_L004_R1_001.fastq KJKG001_15_S51_L005_R1_001.fastq > KJKG15_R1.fastq
+mv KJKG15_R1.fastq Cat_Files/
+cat KJKG001_15_S51_L004_R2_001.fastq KJKG001_15_S51_L005_R2_001.fastq > KJKG15_R2.fastq
+mv KJKG15_R2.fastq Cat_Files/
+cat KJKG001_16_S52_L004_R1_001.fastq KJKG001_16_S52_L005_R1_001.fastq > KJKG16_R1.fastq
+mv KJKG16_R1.fastq Cat_Files/
+cat KJKG001_16_S52_L004_R2_001.fastq KJKG001_16_S52_L005_R2_001.fastq > KJKG16_R2.fastq
+mv KJKG16_R2.fastq Cat_Files/
