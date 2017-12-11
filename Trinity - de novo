@@ -1,0 +1,10 @@
+##Trinity script I used for KJKG2 - L. aenigmaticum
+Trinity --seqType fq \
+        --max_memory 256G \
+        --left /tempdata3/KGalla/Transcriptomes/Trimmomatic/KJKG2_R1_paired.fastq \
+        --right /tempdata3/KGalla/Transcriptomes/Trimmomatic/KJKG2_R2_paired.fastq \
+        --SS_lib_type FR \
+        --min_contig_length 300 \
+        --CPU 16 \
+        --normalize_reads \
+        --output Trinity_KJKG2
